@@ -8,4 +8,12 @@ package com.company.lesson002.homework;
 // 4) Пользователей онлайн
 // 5) Время дата сервера
 public class HW1 {
+
+    public static void main(String[] args) {
+        System.out.println("Загруженность ядер CPU: " + 38 +"%");
+        System.out.println("Количество используемой памяти: " + 75+ "%");
+        System.out.println("Ip-сервера: " + 5+"."+255+"."+95+"."+40 );
+        System.out.println("Время : " + 16+":"+'0'+ 5 +"  " +"дата сервера: "+ 24+"."+'0'+4+"."+2017);
+
+    }
 }
