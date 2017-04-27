@@ -31,7 +31,7 @@ public class HW5 {
             System.out.println("->Находится между 3-9 этажом и количество комнат больше 2 ");
         if (floor != 1 && price < 1_500_000)
             System.out.println("->не первый этаж и цена меньше 1_500_000 ");
-        if ( room >3 && price <= 1_000_000)
+        if ( room >3 || price <= 1_000_000)
                    System.out.println("->количество комнат больше 3 или цена не больше 1_000_000 ");
                 else System.out.println("nothing found");
     }
